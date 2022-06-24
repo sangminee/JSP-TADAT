@@ -11,6 +11,8 @@ https://youtu.be/z34x9LDrwEQ
 -	프론트 엔드 : html, CSS, JavaScripts, JQuery, BootStrap
 -	백엔드 : JAVA, JSP, AWS RDS, Apache Tomcat 8.5 
 
+※ 담당 : 프론트 엔드(홈 화면, 네비게이션 바, 하단 바, 코드 합치기, 전반적인 코드 정리), 백엔드 구축
+
 <h3>2.	사전 준비</h3>
 
 -	사전 설치 필요: JAVA 13, 이클립스, Apache Tomcat 8.5, Eclips Dynamic Web Project 
