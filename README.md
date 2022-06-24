@@ -41,8 +41,17 @@ https://youtu.be/z34x9LDrwEQ
 
 <h3>6.	DB </h3>
  
-   
+![1](https://user-images.githubusercontent.com/81500474/175467290-e27d8b40-e313-4fca-b88a-8f2c9af63967.png)
+![2](https://user-images.githubusercontent.com/81500474/175467308-c9a7f888-9c4c-428f-806d-38cf64992694.png)
+
 
 <h3>7.	Class</h3>
 
+ 1) 프론트엔드 
  
+![3](https://user-images.githubusercontent.com/81500474/175467492-a9c59859-5f62-4dd7-90cc-fd08adeed61b.png)
+
+ 2) 백엔드
+
+ ![4](https://user-images.githubusercontent.com/81500474/175467515-886b6210-8a5c-4033-be5e-b1c08ff9eb5a.png)
+
