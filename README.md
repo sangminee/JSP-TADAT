@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/81500474/175491508-2cdbdafd-b8e5-4993-a598-13509b60e409.png)
 
-- ‘Community’을 통해서  해당 지역의 정부기관이나 단체의 소식을 빠르고 정확하게 파악할 수도 있습니다. 
+- ‘Community’을 통해서 여러 사람들과 소통할 수 있습니다. 
 
 - ‘Job’을 통해서 보다 빠르고, 효율적으로 일자리를 파악할 수 있습니다.
 
