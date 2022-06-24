@@ -1,0 +1,67 @@
+package user;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+public class UserDAO {
+
+	private Connection conn;
+	private PreparedStatement pstmt;
+	private ResultSet rs;
+	
+	public UserDAO() {  // 데이터 접근 객체 
+		try {
+			String dbURL = "";
+			String dbID = ""; // db 아이디 
+			String dbPassword = "";   // db 로그인
+			Class.forName("com.mysql.jdbc.Driver");
+			
+			conn=DriverManager.getConnection(dbURL,dbID, dbPassword);	
+			System.out.println("DB 연결성공");
+			
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public int login(String userID, String userPassword) {
+		String query = "SELECT userPassword FROM USER WHERE userID = ?";
+		
+		try {
+			pstmt = conn.prepareStatement(query);
+			pstmt.setString(1,userID);
+			rs= pstmt.executeQuery();
+			
+			if(rs.next()) {
+				if(rs.getString(1).equals(userPassword))
+					return 1;  // 로그인 성공
+				else
+					return 0; // 비밀번호 불일치
+			}
+			return -1; // 아이디가 없음
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+		return -2; // 데이터베이스 오류
+	}
+
+	public int join(User user) {
+		String query="INSERT INTO USER VALUES (?,?,?,?)";
+		try {
+			pstmt = conn.prepareStatement(query);
+			pstmt.setString(1,user.getUserID());
+			pstmt.setString(2,user.getUserPassword());
+			pstmt.setString(3,user.getUserName());
+			pstmt.setString(4,user.getUserEmail());
+
+			int result = pstmt.executeUpdate();
+			System.out.println(result);
+			return result;
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+		return -1;
+	}
+}

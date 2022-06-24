@@ -1,0 +1,92 @@
+@charset "UTF-8";
+.login-bar {
+    display: flex;
+    justify-content: space-between;   
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.status-bar__column:first-child span{
+    margin-right: 5px;
+}
+
+.Welcome-header{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.Loginmain{
+	display: flex;
+  justify-content: center;
+}
+
+#login-form1{
+    display: block;
+    text-align: center;
+}
+
+#login-form1 input{
+ 
+    background-color: rgb(236, 236, 236);
+    margin-bottom: 1px;
+   
+    width: 25%;
+    padding: 15px 0px;
+    font-size: 18px;
+    display: block;
+    left: 100px;
+}
+
+#login-form2{
+    display: block;
+    text-align: center;
+}
+
+#login-form2 input{
+    background-color: rgb(251, 253, 141);
+    margin-left: 730px;
+    width: 25%;
+    padding: 15px 0px;
+    font-size: 18px;
+    display: block;
+    margin-top: 20px;
+}
+
+.Login{
+    position: fixed;
+    background-color: white;
+
+    width: 100vw;
+    justify-content: space-between;   
+    
+    padding: 3px;
+    border-radius: 3px;
+
+    font-size: 15px;
+    font-weight: bolder;
+    
+}
+
+.Login-1{
+    background-color: white;
+    /* width: 100px; */
+
+    text-align: center;
+    align-items: center;
+
+}
+
+.Login__column {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+.LoginLink {
+    text-decoration-line: none;
+}
+
+
