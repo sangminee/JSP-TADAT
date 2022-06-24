@@ -2,6 +2,10 @@
 
 https://www.youtube.com/watch?v=XX_nfqUJAfM
 
+<video width="100%" height="100%" controls="controls">
+  <source src="https://user-images.githubusercontent.com/81500474/175459737-0da1fe31-b1e1-46d6-b5f0-5a00ff88c749.mp4" type="video/mp4">
+</video>
+
 <h1> 설명 </h1>
 
 <h3> 1.	사용 기술 </h3>
