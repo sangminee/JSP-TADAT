@@ -11,7 +11,7 @@ https://youtu.be/z34x9LDrwEQ
 -	프론트 엔드 : html, CSS, JavaScripts, JQuery, BootStrap
 -	백엔드 : JAVA, JSP, AWS RDS, Apache Tomcat 8.5 
 
-※ 담당 : 프론트 엔드(홈 화면, 네비게이션 바, 하단 바, 코드 합치기, 전반적인 코드 정리), 백엔드 구축
+※ 담당 : 프론트 엔드(홈 화면, 네비게이션 바, 하단 바, 코드 합치기, 전반적인 코드 정리, 커뮤니티/마켓/구인구직 목록), 백엔드 구축
 
 <h3>2.	사전 준비</h3>
 
